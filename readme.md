@@ -31,9 +31,11 @@ Great, now that you're in the openframeworks directory, run the following:
     git clone git://github.com/elliotwoods/ofxRay.git
     git clone git://github.com/gameoverhack/ofxOpenNI.git
     cd ofxOpenNI
-    git checkout ddb00b7b5ba00438c0146fed22add733377bcf59
+    git checkout ddb00b7b5ba00438c0146fed22add733377bcf59 -b ofxPortalCam
     cd ..
     git clone git://github.com/Albert/ofxPortalCam.git
+
+*Quick note -- This implementation of ofxOpenNI is _not_ the current implementation.  This means that other apps that use ofxOpenNI will no longer work.  To switch between the two branches, cd into ofxOpenNI and run "git checkout master" or "git checkout ofxPortalCam".
 
 Woot!  Now just open
     /ofxPortalCam/ofxPortalCamBasicExample/ofxPortalCamBasicExample.xcodeproj/
