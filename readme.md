@@ -3,6 +3,9 @@ ofxPortalCam
 
 An OpenFrameworks addon that opens up portals to different worlds.  No, seriously, that's what it does.  : |
 
+(Click image to watch video):
+[![ofxPortalCam Video](http://img.youtube.com/vi/9hOUw3zqobc/0.jpg "ofxPortalCam Video")](http://youtu.be/9hOUw3zqobc)
+
 By tracking the head with the Kinect and using some nifty features in OpenFrameworks, your monitor (or projected image or whatever) becomes a viewport through which you can view a digital 3d environment.  This digital 3d environment behaves as if it's actually in front of your face.
 
 Dependencies
@@ -40,9 +43,6 @@ Great, now that you're in the openframeworks directory, run the following:
 Woot!  Now just open
     /ofxPortalCam/ofxPortalCamBasicExample/ofxPortalCamBasicExample.xcodeproj/
 
-For instructions on the calibration process, check out the notes in src/testApp.cpp
-
-If you'd like to preview those instructions, you can take a look here:
-    https://github.com/Albert/ofxPortalCam/blob/master/ofxPortalCamBasicExample/src/testApp.cpp
+For instructions on the calibration process, check out the notes in [src/testApp.cpp](https://github.com/Albert/ofxPortalCam/blob/master/ofxPortalCamBasicExample/src/testApp.cpp)
 
 Enjoy!
